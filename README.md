@@ -39,4 +39,4 @@ Ensure that each method is tested for various input scenarios, including positiv
 
 ## TestAutomation.cs
 
-From the file (testautomation.cs) given, can you find any problems in the code?
+From the file (TestAutomation.cs) given, can you find any problems in the code?
