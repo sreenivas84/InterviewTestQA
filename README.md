@@ -1,5 +1,8 @@
 # Automation Testing
 
+The source repository hosting this test is read-only.  
+Before you begin, you will need to import it into your own hosted repository.  
+
 ## SQS Automation Testing
 
 Set up an AWS SQS queue (either in a real AWS account or using the local SQS emulator).
