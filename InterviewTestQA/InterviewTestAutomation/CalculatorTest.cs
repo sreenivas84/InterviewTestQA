@@ -1,6 +1,6 @@
 namespace InterviewTestQA
 {
-    public class UnitTest1
+    public class CalculatorTest
     {
         [Fact]
         public void Test1()
