@@ -1,20 +1,42 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Automation Testing
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## SQS Automation Testing
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Set up an AWS SQS queue (either in a real AWS account or using the local SQS emulator).
+Write an automated test script in a programming language of your choice (e.g., Python, Java, C#) to perform the following tasks:
+Send a message to the SQS queue.
+Receive the message from the SQS queue.
+Verify that the received message matches the sent message.
+Ensure that the test script handles any potential errors or exceptions gracefully.
+Use appropriate AWS SDK or libraries for interacting with SQS (e.g., boto3 for Python, AWS SDK for Java, AWS SDK for .NET).
+Implement assertions or validation checks to verify the correctness of the test results.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## JSON Automation Testing
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+There is a JSON file in the project called Cost Analysis.json
+It contains an array of objects
+Build a class that could be used to deserialize a single object from that array
+Within JSONTest.cs
+
+- Instantiate a list of the object you have defined
+- Deserialise the json file into your list
+- Newtonsoft.json has been installed for this purpose
+- Write to Assert how many items are in your list
+
+Using LINQ:
+
+- Get the top item ordered by Cost descending, and write to Assert the CountryId.
+- Sum Cost for 2016 and write to Assert the total.
+
+## Calculator Automation Testing
+
+Implement unit tests for a simple calculator class.
+Requirements:
+Create a Calculator class with methods for basic arithmetic operations: addition, subtraction, multiplication, and division.
+Implement unit tests to verify the correctness of each arithmetic operation method.
+Use a unit testing framework compatible with the programming language of your choice (e.g., JUnit for Java, NUnit for C#, pytest for Python).
+Ensure that each method is tested for various input scenarios, including positive and negative numbers, zero, and edge cases.
+
+## TestAutomation.cs
+
+From the file (testautomation.cs) given, can you find any problems in the code?
