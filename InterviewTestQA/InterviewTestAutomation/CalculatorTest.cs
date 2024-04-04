@@ -15,7 +15,6 @@ namespace InterviewTestQA
         }
 
         [Fact]
-        public void Test1()
         public void AddNumber_Negative()
         {
             result = calculator.Add(-5, -3);
