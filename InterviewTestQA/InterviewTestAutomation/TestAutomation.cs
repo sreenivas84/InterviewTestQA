@@ -120,6 +120,7 @@ namespace Lorax.Core.Messaging.Tests
         public async Task ConstructorAndCreateTests()
         {
             //Queue Created OK
+
             LoraxSQS LoraxSQS = new LoraxSQS(new ServiceConfig(ServiceConfigType.Ops), SQSClient.Object, new SqsConfiguration { QueueName = CreateQueueName }, null);
             await LoraxSQS.CreateSQSQueue();
 

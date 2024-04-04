@@ -11,13 +11,16 @@
 
   <ItemGroup>
     <Compile Remove="InterviewTestAutomation\TestAutomation.cs" />
+    <Compile Remove="SreeniTestAutomation.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="SreeniTestAutomation.cs" />
     <None Include="InterviewTestAutomation\TestAutomation.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="3.7.300.68" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
